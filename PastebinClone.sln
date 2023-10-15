@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PastebinClone.Api", "PastebinClone.Api\PastebinClone.Api.csproj", "{77A67205-0C1B-4A0A-A268-1F6BBF41E00A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12DD5230-0D8B-435B-93CF-3A66277F37AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A67205-0C1B-4A0A-A268-1F6BBF41E00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A67205-0C1B-4A0A-A268-1F6BBF41E00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A67205-0C1B-4A0A-A268-1F6BBF41E00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A67205-0C1B-4A0A-A268-1F6BBF41E00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DD5230-0D8B-435B-93CF-3A66277F37AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DD5230-0D8B-435B-93CF-3A66277F37AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DD5230-0D8B-435B-93CF-3A66277F37AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DD5230-0D8B-435B-93CF-3A66277F37AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96AFFF03-5AA7-474F-838B-B8727C29AC87}
+	EndGlobalSection
+EndGlobal

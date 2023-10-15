@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres:15.4
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432 
+
+  pastebinclone.api:
+    image: ${DOCKER_REGISTRY-}pastebincloneapi
+    build:
+      context: .
+      dockerfile: PastebinClone.Api/Dockerfile
